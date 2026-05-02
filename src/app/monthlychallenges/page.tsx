@@ -86,13 +86,6 @@ const challengeList: Challenge[] = [
 					get you in the door. We'll also learn to network and prepare for
 					interviews.
 				</p>
-				{/* <p>
-					Learn more about this challenge in{' '}
-					<a href="">
-						this blog post
-					</a>
-					.
-				</p> */}
 				<p>
 					To view all of the details of this year&apos;s challenge,{' '}
 					<Link href="/monthlychallenges/summer-2025">
@@ -143,7 +136,11 @@ const challengeList: Challenge[] = [
 						rel="noopener noreferrer"
 					>
 						Lightning Talk Guide
-					</a>
+					</a>{' '}
+					and{' '}
+					<Link href="/resources/developer-resources/public-speaking">
+						Public Speaking resources
+					</Link>
 					!
 				</p>
 				<p>
@@ -184,13 +181,6 @@ const challengeList: Challenge[] = [
 					continue the November writing goals and use content creation as
 					primary outlet for self-expression.
 				</p>
-				{/* <p>
-					Learn more about this challenge in{' '}
-					<a href="https://dev.to/virtualcoffee/monthly-challenge-creative-community-challenge-273l">
-						this blog post
-					</a>
-					.
-				</p> */}
 				<p>
 					To view all of the details of this year&apos;s challenge,{' '}
 					<Link href="/monthlychallenges/nov-2025">
@@ -227,15 +217,13 @@ const challengeList: Challenge[] = [
 				<p>
 					Based on the NaNoWriMo (National Novel Writing Month) Challenge, this
 					challenge is the tech and non-tech take on writing and working
-					together towards the goal while posting on our own blogs.
+					together towards the goal while posting on our own blogs. Check out
+					our{' '}
+					<Link href="/resources/developer-resources/blogging">
+						Blogging for Developers resources
+					</Link>{' '}
+					for tips on getting started.
 				</p>
-				{/* <p>
-					Learn more about this challenge in{' '}
-					<a href="https://dev.to/virtualcoffee/blogging-2023-monthly-challenge-3kng">
-						this blog post
-					</a>
-					.
-				</p> */}
 				<p>
 					To view all of the details of this year&apos;s challenge,{' '}
 					<Link href="/monthlychallenges/nov-2024">
@@ -406,6 +394,10 @@ const challengeList: Challenge[] = [
 					<a href="https://dev.to/virtualcoffee/join-virtual-coffee-for-the-build-in-public-the-power-of-daily-standup-and-demo-challenge-35kb">
 						this blog post
 					</a>
+					, and check out our{' '}
+					<Link href="/resources/developer-resources/build-in-public">
+						Building in Public resources
+					</Link>
 					.
 				</p>
 			</>
@@ -693,13 +685,6 @@ const challengeList: Challenge[] = [
 					you to actually get some exercise because it probably won&apos;t pick
 					you up at your front door.
 				</p>
-				{/* <p>
-					Learn more about this challenge in{' '}
-					<a href="https://dev.to/virtualcoffee/monthly-challenge-photography-4g18">
-						this blog post
-					</a>
-					.
-				</p> */}
 				<p>
 					To view all of the details of this year&apos;s challenge,{' '}
 					<Link href="/monthlychallenges/aug-2025">
@@ -744,7 +729,6 @@ const challengeList: Challenge[] = [
 		),
 	},
 	{
-		current: true,
 		title: 'Goals Check-In',
 		subtitle: `Reflect. Reevaluate. Adjust.`,
 		description: (
@@ -753,8 +737,8 @@ const challengeList: Challenge[] = [
 					The Goals Check-In challenge provides an opportunity for Virtual
 					Coffee members to reflect on their progress, reevaluate the achievable
 					monthly goals, and gain clarity on their journey to achieve the big
-					goal they set at the beginning of the year. Let's pause, assess, and
-					adjust those monthly goals if necessary. This challenge aims to
+					goal they set at the beginning of the year. Let&apos;s pause, assess,
+					and adjust those monthly goals if necessary. This challenge aims to
 					encourage personal growth, foster connection within the community, and
 					provide a supportive space for members to share their insights,
 					challenges, and successes.
@@ -768,34 +752,43 @@ const challengeList: Challenge[] = [
 				</p>
 				<p>
 					To view all of the details of this year&apos;s challenge,{' '}
-					<Link href="/monthlychallenges/may-2026">
-						check out the May 2026 challenge page
+					<Link href="/monthlychallenges/may-2025">
+						check out the May 2025 challenge page
 					</Link>
 					.
 				</p>
 			</>
 		),
-		links: [
-			{
-				href: '/monthlychallenges/may-2025',
-				title: 'May, 2025',
-			},
-		],
 	},
 	{
+		current: true,
 		title: 'Share Your Tradition',
 		subtitle: `Let's celebrate the diverse cultures and traditions within our community.`,
 		description: (
-			<p>
-				This challenge is all about connection, storytelling, and celebrating
-				the customs that make you, you. Share photos, stories, recipes, or host
-				a Lunch &amp; Learn about any tradition that brings meaning or joy to
-				your life.{' '}
-				<Link href="/monthlychallenges/dec-2025">
-					Check out the December 2025 challenge page
-				</Link>{' '}
-				for all the details.
-			</p>
+			<>
+				<p>
+					This challenge is all about connection, storytelling, and celebrating
+					the customs that make <em>you, you</em>. Whether it&apos;s a winter
+					holiday, a family birthday ritual, a favorite summer meal, or a silly
+					household custom, we want to hear about it! Share photos, stories,
+					recipes, or even host a Lunch &amp; Learn about any
+					tradition&mdash;big or small&mdash;that brings meaning or joy to your
+					life. We spend so much time focused on work and code. Let&apos;s make
+					space to learn about the personal histories and cultural experiences
+					that enrich our community.
+				</p>
+				<p>
+					In this challenge, we encourage you to connect with one another by
+					sharing the special ways you celebrate moments throughout the year.
+				</p>
+				<p>
+					To view all of the details of this year&apos;s challenge,{' '}
+					<Link href="/monthlychallenges/dec-2025">
+						check out the December 2025 challenge page
+					</Link>
+					.
+				</p>
+			</>
 		),
 	},
 ];
